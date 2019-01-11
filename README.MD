@@ -10,7 +10,7 @@ __monstersExcelSheet.xlsx:__
 * I collected all these combinations by manually from Maplestory's Monster Life so how the stats of each monster written are how they are listed in Monster Life directly
 * IDs correlate with the sprite images of the monsters
 <br />
-__monstersCSV.csv: ####__
+__monstersCSV.csv:__
 <br />
 * same as monstersExcelSheet but in CSV format
 <br />
@@ -30,7 +30,7 @@ __MonsterSprites:__
 * Extracted sprites using [WzComparerR2](https://github.com/PirateIzzy/WzComparerR2)
 <br />
 <br />
-## Static_CombinationMonsters: ##
+__Static_CombinationMonsters:__
 <br />
 * Static webpage that shows combination monsters by rank/type with their resulting monsters/combo
 * json file was just saved in object "monsters"
@@ -45,4 +45,5 @@ __To use:__
 <br />
 __Preview:__
 <br />
+
 ![alt text](https://github.com/Tofufu/Maplestory_MonsterCollection/blob/master/previewStaticCombination.PNG)
