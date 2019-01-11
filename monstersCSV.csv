@@ -1,0 +1,145 @@
+name,rank,category,obtained,stat,id,combo.combo1,combo.combo2,result.0,result.1,result.2,combobinary,resultbinary
+Pumpkin Bat Special,C,Special,Monster Box,Max Movement Speed +3,9500531,,,9500529,,,,1
+Pink Teddy Toy,B+,Toy,Combining,Mesos Obtained +3%,9500621,,,9500529,,,,1
+Yeti and Pepe,A,Yeti and Pepe,Combining,Minion duration 4%,7130102,,,9305408,,,,1
+Pharoah Mummy ,A+,Undead,Combining,EXP loss per death -5%,2600120,,,9305408,,,,1
+MT-09,S,Aliens & Humanoids,Combining,Intelligence +12,4230134,,,8220011,,,,1
+Iruvata,A,Special,Monster Box,Max MP +50,7120109,,,8220011,,,,1
+Moon Bunny,A,Special,Monster Box,Farm monster EXP gain +1,5100100,,,9500530,9303025,,,1
+Amore Spores,S,Mushrooms,Combining,6% discount on Monster Life Shop products,9300692,,,9500530,,,,1
+Papulatus,S,Devilish,Combining,"Intelligence +6, Dexterity +6",8500012,,,2600631,,,,1
+King Rombot,S,Golems,Combining,Defense +90,9300299,,,2600631,,,,1
+Phoenix ,S,Birds,Combining,Dexterity +12,9830010,,,8850010,,,,1
+Lyka ,S,Bovines,Combining,Strength +12,9300455,,,8850010,,,,1
+Jack-o-Lantern,S,Ghosts & Goblins,Combining,Final blow has 10% chance of regaining 60 MP,9500195,,,6400006,,,,1
+Pirate King Barbosa,S,Soldiers & Sailors,Combining,"Strength +6, Intelligence +6",9300695,,,6400006,,,,1
+Moonlight Thief,A,Cats & Catlike,Combining,Luck +8,9300167,,,9303025,,,,1
+Oniony,A+,Plants,Combining,HP +150 each 10 sec,3501006,,,3501008,,,,1
+Turnipy,A+,Plants,Combining,HP +150 each 10 sec,3501007,,,3501008,,,,1
+Gold Yeti and King Pepe,S,Yeti and Pepe,Combining,Minion duration +6%,3300006,,,9500608,,,,1
+Lovestruck Panda,A+,Monkey and Bear,Combining,Dex +10,9300694,,,9500608,,,,1
+Mini Bean,S,Devilish,Combining,"Intelligence +6, Dexterity +6",8820007,,,2600231,,,,1
+Reaper Specter,S,Soldiers & Sailors,Combining,"Strength +6, Intelligence +6",2400020,,,2600231,,,,1
+Gigantic Rue Monster,S,Oddities,Combining,Skill MP cost -6%,2600419,,,3502008,,,,1
+Zeno,SS,Aliens & Humanoids,Combining,Intelligence +14,6220001,,,3502008,,,,1
+Dunas,A+,Special,Monster Box,Luck +10,8220010,,,8220012,,,,1
+Spirit of Light,S,Spirits & Sentinels,Combining,"STR 6, LUK 6",9300307,,,8220012,,,,1
+Timer,S,Special,Monster Box,Intelligence +10,2600613,,,9300686,,,,1
+Netherworld Monk,S,Reptiles,Combining,"Dexterity +6, Intelligence +6",8860002,,,9300686,,,,1
+Snow Giant,SS,Oddities,Combining,Skill MP cost -7%,9500532,,,9300688,,,,1
+Lilynouch,S,Special,Monster Box,Dexterity +10,8220005,,,9300685,,,,1
+Toy Black Knight,S,Toy,Combining,Mesos Obtained +6%,9300473,,,9300685,,,,1
+Apsu,S,Special,Monster Box,Final Attack skill damage +10%,7120100,,,9300684,,,,1
+Manon,SS,Dragons,Combining,Final blow has 10% chance of regaining 70 HP,8180000,,,9300697,,,,1
+Lupin Pig,SS,Pigs,Combining,Max HP +350,9302011,,,9300697,,,,1
+King Slime,SS,Slime and Snail,Combining,MP +210 each 10 sec,9300003,,,9300753,9500609,,,1
+Pipsqueak Luminous (Light),SS,Special,Monster Box,Target +1 for AoE skills,9300752,,,9300754,9300881,,,1
+Targa,SS,Toy,Combining,Mesos Obtained +7%,8145100,,,8900100,,,,1
+Griffey,SS,Birds,Combining,Dexterity +14,8180001,,,8910100,,,,1
+Pink Bean,SS,Special,Monster Box,Total damage +2%,8820000,,,8910100,,,,1
+Blackheart,S,Devilish,Combining,"Intelligence +6, Dexterity +6",9300628,,,9300627,,,,1
+Giant,SS,Golems,Combining,Defense +105,9300348,,,9300627,8211004,9010019,,1
+Spirit of Rock,A+,Devilish,Combining,"Intelligence +5, Dexterity +5",4300013,,,9001058,9300890,,,1
+Strange Monster,SS,Cats & Catlike,Combining,Luck +14,9001036,,,9001058,,,,1
+Beryl,S,Special,Monster Box,All stats +5,9300636,,,9300639,,,,1
+Elite Firebrand,A+,Soldiers & Sailors,Combining,"Strength +5, Intelligence +5",8148004,,,9300773,,,,1
+Pumpkin Knight,SS,Ghosts & Goblins,Combining,Final blow has 10% chance of regaining 70 MP,9500192,,,9300773,,,,1
+Elite Windraider,A+,Soldiers & Sailors,Combining,"Strength +5, Intelligence +5",8148007,,,9300774,,,,1
+Guwaru’s Vestige,SS,Plants,Combining,HP +210 each 10 sec,9300491,,,9300774,,,,1
+Elite Nightshadow,A+,Soldiers & Sailors,Combining,"Strength +5, Intelligence +5",8148009,,,9300775,,,,1
+Ergoth,SS,Undead,Combining,EXP loss per death -7%,9300028,,,9300775,,,,1
+Captain Darkgoo,SS,Slime and Snail,Combining,MP +210 each 10 sec,3401011,,,9300776,,,,1
+Dodo,A,Special,Monster Box,Max HP +250,8220004,,,9300776,,,,1
+Elite Stormbreaker,A+,Soldiers & Sailors,Combining,"Strength +5, Intelligence +5",8148001,,,9300772,,,,1
+Prison Guard Ani,SS,Reptiles,Combining,"Dexterity +7, Intelligence +7",8210013,,,9300772,,,,1
+Xerxes,SS,Bovines,Combining,Strength +14,6160003,,,8148000,,,,1
+Frostprey,S,Birds,Combining,Dexterity +12,9300090,,,8148000,,,,1
+Prime Minister,SS,Mushrooms,Combining,7% discount on Monster Life Shop products,3300008,,,9010011,,,,1
+King Clang,A,Special,Monster Box,Defense +75,5220000,,,8800400,,,,1
+Trash Can,SS,Oddities,Combining,Skill MP cost -7%,9300681,,,8800400,,,,1
+Master Dummy,S,Toy,Combining,Mesos Obtained +6%,5090001,,,9300350,,,,1
+Tae Roon,S,Monkey and Bear,Combining,Dex +12,7220000,,,9300350,,,,1
+Pixiemom,S,Fairies & Sprites,Combining,Max MP +300,9300472,,,9300711,,,,1
+Ancient Slime,S,Slime and Snail,Combining,MP +180 each 10 sec,9300422,,,9300711,,,,1
+Puppet Golem,S,Golems,Combining,Defense +90,9300024,,,9300689,,,,1
+Frankenroid,A+,Special,Monster Box,Strength +10,9300139,,,9300689,,,,1
+Castle Golem,B,Golems,Combining,Defense +30,8210005,,,8211004,,,,1
+Halloween Pumpkin,B,Ghosts & Goblins,Combining,Final blow has 10% chance of regaining 20 MP,9500526,,,9010019,,,,1
+Eye of Time,A,Oddities,Combining,Skill MP cost -6%,8200000,,,9300758,9300759,,,1
+Ifrit,SS,Spirits & Sentinels,Combining,"STR 7, LUK 7",8610015,,,9300758,,,,1
+Master Omen,SS,Spirits & Sentinels,Combining,"STR 7, LUK 7",2700314,,,9300806,,,,1
+Nine-Tailed Fox,SS,"Canids, Raccoons, & Ferrets",Combining,"Strength +7, Luck +7",7220001,,,9300882,,,,1
+Balloon Mouse,B,Special,Monster Box,Defense +50,2400203,,,9309200,,,,1
+Spiderling,B+,Special,Monster Box,Minion duration +1%,9309202,,,9309201,,,,1
+Leviathan,S,Dragons,Combining,Final blow has 10% chance of regaining 60 HP,8220003,,,9300690,,,,1
+Snow Witch,A,Special,Monster Box,Max MP +250,6090001,,,9300690,,,,1
+Thief Crow,B+,Birds,Combining,Dexterity +6,9001013,,,9309203,,,,1
+Victor,SS,Oddities,Combining,Skill MP cost -7%,8880006,,,9309205,,,,1
+Dark Eliza,SS,Cats & Catlike,Combining,Luck +14,9100044,,,9309206,,,,1
+General Bloodfang,S,"Canids, Raccoons, & Ferrets",Combining,"Strength +6, Luck +6",9300629,,,9309206,,,,1
+Riche,S,Undead,Combining,EXP loss per death -6%,6090000,,,9300691,,,,1
+Elite Bloodfang,S,"Canids, Raccoons, & Ferrets",Combining,"Strength +6, Luck +6",2500220,,,9300691,,,,1
+Viking Squad,S,Special,Monster Box,Damage +3% if you have Exhausted/Tired/Generous/Serious Vikings,3300109,,,3300110,,,,1
+Serious Viking,S,Birds,Combining,Dexterity +12,3300107,,,3300110,,,,1
+Discordant Spirit,S,Erdas,Combining,Item Drop Rate +6% when defeating monsters in Arcane River,8644010,,,9300890,,,,1
+Bat Pumpkin Candy,B,Special,Combining,100 more Waru at Farm level-up,9500529,9500531,9500621,,,,1,
+Pharaoh Yeti,A,Special,Combining,Farm EXP gain +5,9305408,7130102,2600120,,,,1,
+Aufheben,A+,Special,Combining,Farm building production +1,8220011,4230134,7120109,9300639,,,1,1
+Moon Bunny Twin,A+,Special,Combining,Farm monster EXP gain +2,9500530,5100100,9300692,9300688,,,1,1
+Papulatus Clock,S,Special,Combining,All stats +5,2600631,8500012,9300299,9300753,,,1,1
+Shinsoo,S,Special,Combining,Attacks have a 10% chance to regain 20 HP and MP,8850010,9830010,9300455,9300687,,,1,1
+Crimson Balrog,S,Special,Combining,Enemy attacks have a 5% chance to trigger invincibility for 3 seocnds,6400006,9500195,9300695,9300684,,,1,1
+Thieving Moon Bunny,S,Special,Combining,Mesos Obtained +4%,9303025,5100100,9300167,9300757,,,1,1
+Mole King,S,Special,Combining,Movement Speed 10,3501008,3501006,3501007,,,,1,
+Lovestruck Sweetheart Yeti,S,Special,Combining,Minion duration 7%,9500608,3300006,9300694,9500609,,,1,1
+Jr. Balrog,S,Special,Combining,Invincibility +1 second when attacked,2600231,8820007,2400020,8900100,,,1,1
+Demolishizer,S,Special,Combining,"DEF +150, Speed +5",3502008,2600419,6220001,,,,1,
+Oberon,S,Special,Combining,All stats +5,8220012,8220010,9300307,9300687,,,1,1
+Pipsqueak Arkarium,SS,Special,Combining,Buff Duration +5%,9300686,2600613,8860002,9309203,,,1,1
+Pipsqueak Orchid,SS,Special,Combining,Character EXP gain +3%,9300688,9500532,9500530,9300882,,,1,1
+Pipsqueak Von Leon,SS,Special,Combining,Boss Damage +5%,9300685,8220005,9300473,9309200,,,1,1
+Pipsqueak Cygnus,SS,Special,Combining,Damage: 3%,9300687,8850010,8220012,9300883,,,1,1
+Pipsqueak Magnus,SS,Special,Combining,Ignore Enemy DEF +5%,9300684,6400006,7120100,,,,1,
+Mir,SS,Special,Combining,"ATT +5, Magic ATT +5",9300697,8180000,9302011,9300751,,,1,1
+Teenage Mir,SS,Special,Combining,Status Resistance +5,9300751,9300697,9300697,9300755,,,1,1
+Pipsqueak Luminous (Dark),SS,Special,Combining,"ATT +5, Magic ATT +5",9300753,2600631,9300003,9300754,9300806,,1,1
+Pipsqueak Luminous (Equilibrium),SS,Special,Combining,ATT and Magic ATT +1 per 20 Character Levels,9300754,9300752,9300753,9300883,,,1,1
+Full-Grown Mir,SS,Special,Combining,All stats +20,9300755,9300751,9300751,,,,1,
+Pierre,SS,Special,Combining,Final Attack skill damage +15%,8900100,2600231,8145100,9010011,,,1,1
+Von Bon,SS,Special,Combining,Buff Duration +5%,8910100,8180001,8820000,,,,1,
+Giant Darkheart,SS,Special,Combining,Max HP +500,9300627,9300628,9300348,,,,1,
+Inner Rage,SS,Special,Combining,Max HP +500,9001058,4300013,9001036,9309205,,,1,1
+Meta-Beryl,SS,Special,Combining,All stats +6,9300639,9300636,8220011,9300756,,,1,1
+Master Margana,SS,Special,Combining,Intelligence +15,9300773,8148004,9500192,,,,1,
+Master Rellik,SS,Special,Combining,Dexterity +15,9300774,8148007,9300491,,,,1,
+Master Hsalf,SS,Special,Combining,Luck +15,9300775,8148009,9300028,,,,1,
+Master Gawyllacs,SS,Special,Combining,All stats +5,9300776,3401011,8220004,,,,1,
+Master Red Nirg,SS,Special,Combining,Strength +15,9300772,8148001,8210013,,,,1,
+Typhon,SS,Special,Combining,"ATT +1, Magic ATT +1",8148000,6160003,9300090,,,,1,
+Pipsqueak Mercedes,SS,Special,Combining,Character EXP reward +3%,9300756,9300639,9300711,,,,1,
+Pipsqueak Phantom,SS,Special,Combining,Critical Rate +4%,9300757,9303025,9500609,9300881,,,1,1
+Lovestruck King Slime,SS,Special,Combining,Critical Rate +3%,9500609,9300003,9500608,9300757,,,1,1
+Admin Balloon,SS,Special,Combining,Max HP +2%,9010011,8900100,3300008,9010012,,,1,1
+Mega-Admin Balloon,SS,Special,Combining,2% chance to bypass skill cooldown,9010012,9010011,9010011,2600800,,,1,1
+Tarantulus,SS,Special,Combining,Status Resistance 1,8800400,5220000,9300681,9309201,,,1,1
+Petite Shade,SS,Special,Combining,4% chance to reset skill cooldown,9300881,9300757,9300752,,,,1,
+Mu Gong’s Shadow,SS,Special,Combining,ATT +3,9300350,5090001,7220000,,,,1,
+Ephenia,SS,Special,Combining,Magic ATT +3,9300711,9300472,9300422,9300756,,,1,1
+Commander Will,SS,Special,Combining,Buff Duration +6%,2600800,9309201,9010012,,,,1,
+Pipsqueak Zakum,SS,Special,Combining,Chance to block enemy attacks +3%,9300689,9300024,9300139,,,,1,
+King Castle Golem,SS,Special,Combining,"DEF +150, Max HP +750",8211004,8210005,9300348,,,,1,
+Bully Jack,SS,Special,Combining,Minion duration +6%,9010019,9500526,9300348,,,,1,
+Lapis,SS,Special,Combining,Enemy DEF Ignored +5%,9300758,8200000,8610015,,,,1,
+Lazuli,SS,Special,Combining,Critical Rate +5%,9300759,8200000,9300691,,,,1,
+Black Mage’s Shadow,SS,Special,Combining,"ATT +6, Magic ATT +6",9300806,2700314,9300753,,,,1,
+Lil Moonbeam,SS,Special,Combining,Boss Damage +8% if you have Petite Shade,9300882,7220001,9300688,,,,1,
+Petite Lania,SS,Special,Combining,All Stats +20 if you have every Pipsqueak Luminous (Light/Dark/Equilibrium),9300883,9300754,9300687,,,,1,
+Cowardly Lion,SS,Special,Combining,Enemy attacks have a 3% chance to trigger invincibility for 3 seconds,9309200,2400203,9300685,,,,1,
+Giant Spider,SS,Special,Combining,Status Resistance +3%,9309201,8800400,9309202,2600800,,,1,1
+Pipsqueak Horntail,SS,Special,Combining,Crit Rate +3%,9300690,8220003,6090001,,,,1,
+Scarecrow,SS,Special,Combining,Damage +4%,9309203,9001013,9300686,,,,1,
+Tin Woodman,SS,Special,Combining,Enemy DEF Ignored +6%,9309205,9001058,8880006,,,,1,
+Toto,SS,Special,Combining,Movement Speed +5,9309206,9100044,9300629,,,,1,
+Pipsqueak Hilla,SS,Special,Combining,Critical Damage +2%,9300691,6090000,2500220,9300759,,,1,1
+Black Viking,SS,Special,Combining,"DEX +5, Damange +2%",3300110,3300109,3300107,,,,1,
+Awakened Spirit of Rock,SS,Special,Combining,All stats +5,9300890,4300013,8644010,,,,1,
