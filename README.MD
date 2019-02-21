@@ -1,4 +1,4 @@
-## Maplestory_MonsterCollection:
+## Maplestory_MonsterLife:
 
 * Projects pertaining around Maplestory's Monster Life Farm
 * All images belong to Nexon
