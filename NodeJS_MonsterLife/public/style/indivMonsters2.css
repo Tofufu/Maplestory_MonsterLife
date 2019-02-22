@@ -1,0 +1,94 @@
+body {
+    padding-top: 70px;
+}
+.navbar {
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(66, 66, 66, 0.1);
+}
+.container {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.monsterNameHeader {
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.imageBox {
+    height: 600px;
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+.imageBox img {
+    width: 75%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-md-4 {
+    padding: 0;
+}
+
+.monsterDescription, .headerCombinations {
+    color: rgba(0,0,0,.7);
+    font-size: 1.07rem;
+}
+
+.monsterDescription .col-md-3, .monsterDescription .col-md-9 {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+#combinationsAndResults {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.monsterBox {
+    height: 150px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0;
+}
+
+.monsterBoxName {
+    height: 20%;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.monsterBoxImage {
+    height: 80%;
+}
+
+.monsterBox img {
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-md-3 a {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.col-md-3 a:hover .monsterBoxName{
+    color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.1);
+}
+
+
+.coloringIcons {
+    color: rgba(0,0,0,.5);
+    font-size: 1.9rem;
+}

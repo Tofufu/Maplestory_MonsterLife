@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style/mainMonsters1.css">
+    </head>
+    <body>
+        <%- include ./partials/navbar %>
+
+        <div class="container" id="main">
+        </div> <!--container-->
+
+        <script type="text/javascript">
+        // set link as active on navbar
+        var activeLink = document.getElementById("allMonstersLink");
+        activeLink.classList.add("active");
+            var monsters = <%- JSON.stringify(allMonsters) %>;
+            var container = document.getElementById("main");
+            var fragment = document.createDocumentFragment();
+            
+            var numberofRows = Math.ceil(monsters.length/4);
+            var startingIndex=-1;
+            var endingIndex=-1; 
+
+            for(var i=1; i<=numberofRows; i++)
+            {
+                startingIndex = endingIndex + 1; // we want 0,3 | 4,7 | 8,11....n-4,n-1
+                endingIndex = startingIndex + 3;
+                if(endingIndex > monsters.length-1)
+                {
+                    endingIndex = monsters.length-1; 
+                }
+                fragment.appendChild( creatingRowDiv(startingIndex, endingIndex) );
+            }
+            container.appendChild(fragment);
+
+            function creatingRowDiv(startingIndex, endingIndex)
+            {
+                var row = document.createElement("div");
+                row.classList.add("row");
+                for(var j=startingIndex; j<=endingIndex; j++)
+                {
+                    row.appendChild( creatingMonsterDiv(monsters[j]) );
+                }
+                return row;
+            }
+
+            function creatingMonsterDiv(monster)
+            {
+                var colDiv = document.createElement("div");
+                colDiv.classList.add("col-md-3", "col-sm-6", "overridingHeight"); /*added override on 2/20/2019 because the heights were getting messed up*/
+
+                var monsterLink = document.createElement("a");
+                monsterLink.href = "/monsters/" + monster.id;
+
+                var monsterBoxDiv = document.createElement("div");
+                monsterBoxDiv.classList.add("monsterBox", "bg-white", "rounded", "mb-5");
+
+                var monsterNameDiv = document.createElement("div");
+                monsterNameDiv.classList.add("monsterName", "overflow-auto", "d-flex", "align-items-center", "justify-content-center");
+                monsterNameDiv.textContent = monster.name;
+
+                var imageDiv = document.createElement("div");
+                imageDiv.classList.add("imageBox", "p-3");
+                var monsterImage = document.createElement("img");
+                monsterImage.src="/MonsterSprites/" + monster.id + ".png";
+                imageDiv.appendChild(monsterImage);
+
+                monsterBoxDiv.appendChild(monsterNameDiv);
+                monsterBoxDiv.appendChild(imageDiv);
+
+                monsterLink.appendChild(monsterBoxDiv);
+                colDiv.appendChild(monsterLink);
+               return colDiv;
+            }
+        </script>
+
+    </body>
+</html>

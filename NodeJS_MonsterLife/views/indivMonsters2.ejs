@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style/indivMonsters2.css">
+    </head>
+    <body>
+        <%- include ./partials/navbar %>
+
+        <div class="container rounded">
+            <div class="row"> 
+                <div class="monsterNameHeader p-3"> <%=allMonsters[indivMonsterID].name%> </div>
+            </div> <!--row monsterHeaderName-->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="imageBox">
+                        <img src="<%="/MonsterSprites/"+indivMonsterID+".png"%>">
+                    </div>
+                </div> <!--col-->
+
+                <div class="col-md-8">
+                    <div class="monsterDescription p-3">
+                        <div class="row">
+                            <div class="descriptionHeader col-md-3">Monster Name</div>
+                            <div class="col-md-9"><%=allMonsters[indivMonsterID].name%></div>
+                        </div> <!--row-->
+                        <div class="row">
+                            <div class="descriptionHeader col-md-3">Monster Rank</div>
+                            <div class="col-md-9"><%=allMonsters[indivMonsterID].rank%></div>
+                        </div> <!--row-->
+                        <div class="row">
+                            <div class="descriptionHeader col-md-3">Monster Category</div>
+                            <div class="col-md-9"><%=allMonsters[indivMonsterID].category%></div>
+                        </div> <!--row-->
+                        <div class="row">
+                            <div class="descriptionHeader col-md-3">Monster Stat</div>
+                            <div class="col-md-9"><%=allMonsters[indivMonsterID].stat%></div>
+                        </div> <!--row-->
+                        <div class="row">
+                            <div class="descriptionHeader col-md-3">How to Obtain</div>
+                            <div class="col-md-9"><%=allMonsters[indivMonsterID].obtained%></div>
+                        </div> <!--row-->
+                    </div>
+
+                    <div class="headerCombinations p-3">Combinations/Results: </div>
+                    <div id="combinationsAndResults"></div> <!--combinationsAndResults-->
+                </div> <!--col-->
+
+            </div> <!--row-->
+        </div> <!--container-->
+
+        <script type="text/javascript">
+            var activeLink = document.getElementById("allMonstersLink");
+            activeLink.classList.add("active");
+
+            var monsters = <%- JSON.stringify(allMonsters) %>;
+            var indivMonID = <%- JSON.stringify(indivMonsterID) %>;
+
+            var comboAndResultContainer = document.getElementById("combinationsAndResults");
+            var fragment = document.createDocumentFragment();
+
+            if(monsters[indivMonID].combobinary === "1")
+            {
+                fragment.appendChild( creatingThreeDivs(monsters[indivMonID].combo.combo1, monsters[indivMonID].combo.combo2, indivMonID) );
+            }
+
+            if(monsters[indivMonID].resultbinary === "1")
+            {
+                var cleanedResultsArray = (monsters[indivMonID].result).filter(function(arrayItem){ return arrayItem !== ""; });
+                var currentResultMonster, resultC1, resultC2;
+                for(var i=0; i<cleanedResultsArray.length; i++)
+                {
+                    currentResultMonster = cleanedResultsArray[i];
+                    resultC1 = monsters[currentResultMonster].combo.combo1;
+                    resultC2 = monsters[currentResultMonster]. combo.combo2;
+                    console.log("We're in the result: " + currentResultMonster + " " + resultC1 + " " + resultC2);
+
+                    fragment.appendChild( creatingThreeDivs(resultC1, resultC2, currentResultMonster) );
+                }
+            }
+
+            comboAndResultContainer.appendChild(fragment);
+            
+
+            function creatingThreeDivs(c1, c2, r)
+            {
+                var rowDiv = document.createElement("div");
+                rowDiv.classList.add("row", "p-3");
+                rowDiv.appendChild( creatingSingleMonsterDiv(c1) );
+                rowDiv.appendChild( creatingIconDiv("+") );
+                rowDiv.appendChild( creatingSingleMonsterDiv(c2) );
+                rowDiv.appendChild( creatingIconDiv("=") );
+                rowDiv.appendChild( creatingSingleMonsterDiv(r) );
+
+                return rowDiv;
+            }
+
+            function creatingSingleMonsterDiv(monID)
+            {
+                var mainDiv = document.createElement("div");
+                mainDiv.classList.add("col-md-3", "monsterBox", "bg-white", "rounded");
+                var cLink = document.createElement("a");
+                cLink.href = "/monsters/" + monID;
+                var cName = document.createElement("div");
+                cName.classList.add("monsterBoxName", "overflow-auto", "d-flex", "align-items-center", "justify-content-center");
+                cName.textContent = monsters[monID].name;
+                var cImageDiv = document.createElement("div");
+                cImageDiv.classList.add("monsterBoxImage");
+                var cImage = document.createElement("img");
+                cImage.src= "/MonsterSprites/" + monID + ".png";
+
+                cImageDiv.appendChild(cImage);
+                cLink.appendChild(cName);
+                cLink.appendChild(cImageDiv);
+                mainDiv.appendChild(cLink);
+
+                return mainDiv;
+            }
+
+            
+            function creatingIconDiv(iconType)
+            {
+                var sign = document.createElement("div");
+                sign.classList.add("col-md-1", "d-flex", "align-items-center", "justify-content-center", "coloringIcons");
+                sign.textContent = iconType;
+                return sign;
+            }
+        </script>
+
+    </body>
+</html>
