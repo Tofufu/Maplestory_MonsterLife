@@ -22,7 +22,7 @@
 *monstersCSV2JSON.js:*
 * File I have included which I used to convert the CSV --> JSON using [csvtojson](https://www.npmjs.com/package/csvtojson)
 
-To Use *monstersCSV2JSON.js*:
+To Use *monstersCSV2JSON.js*: 
 1. install csvtojson in directory
 2. node monstersCSV2JSON.js
 
@@ -58,7 +58,7 @@ Preview:
 
 To use *NodeJS_MonsterLife*:
 1. Extract the sprites from *Static_CombinationMonsters/MonsterSprites* to *NodeJS_MonsterLife/public/MonsterSprites*
-2. Import monster data (*MonsterLife_Data/jsonMonsters2DB.json*) to MongoDB:
+2. Import monster data (*MonsterLife_Data/jsonMonsters2DB.json*) to MongoDB: 
 mongoimport -d monsterCollection -c monsters --jsonArray --maintainInsertionOrder --file ".\jsonMonsters2DB.json"
 3. Inside the *NodeJS_MonsterLife/* install express, ejs, mongoose:
 npm install ejs express mongoose --save
